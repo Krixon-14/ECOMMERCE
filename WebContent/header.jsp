@@ -39,11 +39,7 @@
 	</div>
 	<!-- Company Header Ending -->
 
-	<%
-	/* Checking the user credentials */
-	String userType = (String) session.getAttribute("usertype");
-	if (userType == null) { //LOGGED OUT
-	%>
+	
 
 	<!-- Starting Navigation Bar -->
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -164,10 +160,9 @@
 							<li><a href="adminViewProduct.jsp?type=speaker">Speakers</a></li>
 							<li><a href="adminViewProduct.jsp?type=tablet">Tablets</a></li>
 						</ul></li>
-					<li><a href="adminStock.jsp">Stock</a></li>
-					<li><a href="shippedItems.jsp">Shipped</a></li>
+					<li><a href="adminStock.jsp">Stock Products</a></li>
+					<li><a href="shippedItems.jsp">Shipped Items</a></li>
 					<li><a href="unshippedItems.jsp">Orders</a></li>
-					<!-- <li><a href=""> <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a></li> -->
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Update Items <span
 							class="caret"></span>
