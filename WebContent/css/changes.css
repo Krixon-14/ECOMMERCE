@@ -1,7 +1,7 @@
 body {
 	background-color: #E6F9E6;
 }
-/* Add a dark background color with a little bit see-through */
+
 .navbar {
 	margin-bottom: 0;
 	background-color: #2d2d30;
@@ -11,44 +11,44 @@ body {
 	opacity: 0.9;
 }
 
-/* Add a gray color to all navbar links */
+
 .navbar li a, .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
 
-/* On hover, the links will turn white */
+
 .navbar-nav li a:hover {
 	color: red !important;
 }
 
-/* The active link */
+
 .navbar-nav li.active a {
 	color: #fff !important;
 	background-color: #29292c !important;
 }
 
-/* Remove border color from the collapsible button */
+
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
 
-/* Dropdown */
+
 .open .dropdown-toggle {
 	color: #fff;
 	background-color: #555 !important;
 }
 
-/* Dropdown links */
+
 .dropdown-menu li a {
 	color: #000 !important;
 }
 
-/* On hover, the dropdown links will turn red */
+
 .dropdown-menu li a:hover {
 	background-color: white !important;
 }
 
-/* Add a dark gray background color to the modal header and center text */
+
 button {
 	background-color: black;
 	color: white;
@@ -85,11 +85,11 @@ button:hover {
 }
 
 .jumbotron {
-	background-color: #33cc33; /*#f4511e; /* Orange */
+	background-color: #33cc33;
 	color: #ffffff;
 }
 
-/*Handling the price tag*/
+
 .price {
 	color: red;
 	font-weight: bold;
@@ -104,11 +104,10 @@ button:hover {
 
 .productinfo {
 	color: black;
-	/* text-align: center; */
 	font-size: 12px;
 }
 
-/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+
 @media only screen and (min-width: 601px) {
 	.tab {
 		border-radius: 10px;
@@ -123,7 +122,7 @@ button:hover {
 	}
 }
 
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+
 @media only screen and (max-width: 600px) {
 	.tab {
 		border-radius: 10px;
@@ -138,7 +137,7 @@ button:hover {
 	}
 }
 
-/* Shopping Cart notification Batch */
+
 *.icon-blue {
 	color: #0088cc;
 }
